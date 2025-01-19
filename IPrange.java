@@ -34,7 +34,7 @@ public class IPrange {
                 int currentIp = networkAddress + i;
                 ipList.append(intToIp(currentIp));
                 if (i < numIPs - 1) {
-                    ipList.append("; ");
+                    ipList.append(";");
                 }
             }
             saveToFile(ipList.toString());
